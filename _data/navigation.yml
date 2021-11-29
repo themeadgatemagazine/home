@@ -1,0 +1,13 @@
+---
+main:
+- title: About
+  url: "/about/"
+- title: Issues
+  url: "/issues/"
+- title: Masthead
+  url: "/masthead/"
+- title: Submissions
+  url: "/submission/"
+- title: Contact Us
+  url: "/contact/"  
+

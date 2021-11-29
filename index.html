@@ -1,0 +1,75 @@
+---
+layout: splash
+permalink: /
+breadcrumbs: false
+header:
+  overlay_color: "#5e616c"
+  overlay_image: /assets/img/feature5.jpg
+  cta_label: '<i class="fas fa-book"></i> Read our latest issue'
+  cta_url: /issue5/issue-five-toc/
+  caption: "caption"
+excerpt: "The Meadgate Magazine is a monthly magazine for the friends in and around Meadgate.<br>"
+
+feature_row:
+  - image_path: ""
+    alt: "pic1"
+    url: "/category1/"
+    btn_class: "btn--primary"
+    btn_label: "Explore category1"
+    image_caption: "&copy; Author1"
+  - image_path: ""
+    alt: "pic2"
+    url: "/category1/"
+    btn_class: "btn--primary"
+    btn_label: "Explore category2"
+    image_caption: "&copy; Author2" 
+  - image_path: ""
+    alt: "pic3"
+    url: "/category3/"
+    btn_class: "btn--primary"
+    btn_label: "Explore category3"
+    image_caption: "&copy; Author3"
+
+intro:
+  - excerpt: '<h3>Article Title</h3>
+  <br>
+  <span>An article by <a href="">Author</a></span>'
+
+intro-one:
+  - excerpt: '[The First Issue]() is out now.<br><br> The Submission Window for the N+1 Issue of The Meadgate Magazine , has been closed. The issue will be out soon.'
+  
+---
+<style>
+    .page__hero--overlay {
+    padding: 12em 0 4em 0;
+    }
+
+    .archive__item-body p{
+    padding-top: 1em;
+    }
+    .archive__item-excerpt{
+      text-align: left;
+    }
+    .archive__item-caption{
+        font-size: .425em;
+    }
+    .feature__item--left {
+    float: left;
+    margin-left: 10ch;
+    margin-right: 10ch;
+    width: auto; 
+    }
+    .feature__item--left .archive__item-teaser img {
+     width: 60%;
+    }
+   
+    a.btn.btn--light-outline.btn--large {
+    background-color: red;
+    }
+</style>
+{% include feature_row id="intro-one" type="center" %}
+
+{% include feature_row id="intro" type="center" %}
+
+
+{% include feature_row %}

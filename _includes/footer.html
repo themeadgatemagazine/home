@@ -1,0 +1,42 @@
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    {% if site.data.ui-text[site.locale].follow_label %}
+      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li><br>
+    {% endif %}
+    {% if site.twitter.username %}
+      <li><a href="https://twitter.com/{{ site.twitter.username }}"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+    {% endif %}
+    {% if site.facebook.username %}
+      <li><a href="https://www.facebook.com/{{ site.facebook.username }}"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+    {% endif %}
+    {% if site.instagram.username %}
+      <li><a href="https://www.instagram.com/{{ site.instagram.username }}"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+    {% endif %}
+    {% if site.author.github %}
+      <li><a href="https://github.com/{{ site.author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    {% endif %}
+    {% if site.author.gitlab %}
+      <li><a href="https://gitlab.com/{{ site.author.gitlab }}"><i class="fab fa-fw fa-gitlab" aria-hidden="true"></i> Gitlab</a></li>
+    {% endif %}
+    {% if site.author.bitbucket %}
+      <li><a href="https://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
+    {% endif %}
+    <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" style="padding-right: 0;"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright" style="text-align: left;">
+    <img src="{{ site.baseurl }}/assets/logo.png" style="height: 5em; width: 5em;">
+    <p class="tmm-title">The Meadgate Magazine</p>
+    <!--<img src="{{ site.baseurl }}/assets/img/pix.png" style="height: 5vh;">
+    <p>Our Sponsors</p>-->
+</div>
+
+<div class="page__footer-copyright" style="text-align: right;">
+    <span id="footer-focus-text">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.</span>
+    <br><br>
+    <span id="footer-focus-text">Design by <a href="https://alokprateek.in" target="_blank"><u>Alok</u></a>.</span>
+    <br><br>
+    <a href="{{ site.baseurl }}/privacy/">Privacy Policy</a><br>
+    <a href="{{ site.baseurl }}/tandc/">Terms of Service</a>
+</div>
