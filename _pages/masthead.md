@@ -7,7 +7,7 @@ feature_row1:
   - image_path: 
     alt: "Dhruv Gosu"
     title: "Dhruv Gosu"
-    excerpt: 'Dhruv is an 8 year old boy, who is interested in transport, music and maps. He writes stories, makes stick drawiing and reads a lot during his leisure. He is now venturing in helping the local community with his tiny magazine.'
+    excerpt: 'Dhruv is an 8 year old boy, who is interested in music, transport and maps. He writes stories, makes stick drawiing and reads a lot during his leisure. He is now venturing in helping the local community with his tiny magazine.'
 ---
 
 <style>

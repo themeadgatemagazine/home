@@ -6,7 +6,8 @@ tags:
 
 ---
 
-**The submission window for the nth Issue of _The Meadgate Magazine_,  has now been closed.**
+If you wish to feature in the magazine, please send in your article to [themeadgatemagazine[at]gmail[dot]com](mailto:themeadgatemagazine@gmail.com) along with 
+- the write up with photos, preferably.
+- name and age.
 
-
-For any queries, you can email us at [themeadgatemagazine[at]gmail[dot]com](mailto:themeadgatemagazine@gmail.com). We try to respond to submissions within 1-2 weeks of receiving it. If you do not hear from us till then, you can drop us an email at the above mentioned address.
+We try to respond to submissions within 1-2 weeks of receiving it.

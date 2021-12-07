@@ -1,13 +1,16 @@
 ---
 layout: splash
-permalink: /
 breadcrumbs: false
+
+image_sliders:
+  - slider2
+
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/img/feature5.jpg
   cta_label: '<i class="fas fa-book"></i> Read our latest issue'
   cta_url: /issues/
-  caption: "caption"
+  caption: "&copy; tmm"
 excerpt: "The Meadgate Magazine is a monthly magazine for the friends in and around Meadgate.<br>"
 
 feature_row:
@@ -38,7 +41,13 @@ intro:
 intro-one:
   - excerpt: '[The First Issue]() is out now.<br><br> The Submission Window for the N+1 Issue of The Meadgate Magazine , has been closed. The issue will be out soon.'
   
+
 ---
+
+<!-- Slideshow
+================================================== -->
+{% include slider.html selector="slider2" %}
+<!-- 
 <style>
     .page__hero--overlay {
     padding: 12em 0 4em 0;
@@ -66,10 +75,11 @@ intro-one:
     a.btn.btn--light-outline.btn--large {
     background-color: red;
     }
-</style>
-{% include feature_row id="intro-one" type="center" %}
+</style> -->
 
-{% include feature_row id="intro" type="center" %}
+<!-- {% include feature_row id="intro-one" type="center" %} -->
+
+<!-- {% include feature_row id="intro" type="center" %} -->
 
 
-{% include feature_row %}
+<!-- {% include feature_row %} -->

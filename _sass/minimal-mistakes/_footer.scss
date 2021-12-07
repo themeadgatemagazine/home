@@ -28,7 +28,7 @@
     margin-right: auto;
     margin-top: -1em;
     max-width: 100%;
-    padding: 2em 1em 3em;
+    padding: 2em 1em 1em;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -100,5 +100,15 @@
 }
 
 #footer-focus-text u{
+  border-bottom: 1px dashed;
+}
+
+
+#footer-focus-text-footer{
+  font-family: $sans-serif;
+  font-size: small;
+}
+
+#footer-focus-text-footer u{
   border-bottom: 1px dashed;
 }
