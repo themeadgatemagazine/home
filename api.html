@@ -1,0 +1,39 @@
+<html>    
+  <head>    
+    <script src="./assets/js/jquery.min.js" ></script>
+    <script>
+    function createProfile()
+    {
+        $.ajax({
+            url:         "https://teamli-mailer.herokuapp.com/sendmail/",
+            method:      "POST",
+            contentType: "application/json",
+            dataType:    "json",
+            data:         {"firstName" : "Kiran", "mailBody" : "from docs"},
+            success:      function() { /*doSomething();*/ },
+            error:        function(error) {/*doSomething();*/}
+        });
+    }
+
+    function UserAction() {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+         if (this.readyState == 4 && this.status == 200) {
+             alert(this.responseText);
+         }
+    };
+    xhttp.open("POST", "https://teamli-mailer.herokuapp.com/sendmail/", true);
+    xhttp.setRequestHeader("Content-type", "application/json");
+    xhttp.send('{"firstName" : "Kiran", "mailBody" : "from docs"}');
+}
+
+    </script>
+  </head>
+  <body>
+    <form onsubmit="UserAction()" id="registrationForm">
+        FirstName : <input type="text" name="firstName" /> <br />
+        LastName : <input type="text" name="lastName" /> <br /> 
+                 <input type="submit" value="Register" />
+    </form>
+  </body>
+</html>
