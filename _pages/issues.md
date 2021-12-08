@@ -4,17 +4,12 @@ title: Issues
 permalink: /issues/
 classes: wide
 
-issue_row2:
-  - image_path: "assets/issues/images/issue02.png"
-    alt: "Issue 02"
-    title: "Issue 02"
-    excerpt: 'Welcome back. Thanks for trusting us.'
 
 issue_row1:
   - image_path: "assets/issues/images/issue01.png"
     alt: "Issue 01"
     title: "Issue 01"
-    excerpt: 'Hello World! A warm welcome to _The Meadgate Magazine_. It is a humble effort to start a monthly magazine '
+    excerpt: 'Coming soon...'
 ---
 
 <style>
@@ -33,4 +28,3 @@ issue_row1:
 
 {% include feature_row id="issue_row2" type="left" %}
 {% include feature_row id="issue_row1" type="left" %}
-
