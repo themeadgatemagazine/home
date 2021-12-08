@@ -12,8 +12,11 @@ $link-color: #0000ff !default;
 $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: $text-color !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
+$navbackground: rgb(99, 159, 199) !default;
+$menufontcolor: rgb(5, 42, 66) !default;
 
 /* tmm syntax highlighting (base16) */
+
 $base00: #000000 !default;
 $base01: #242422 !default;
 $base02: #484844 !default;
@@ -42,6 +45,10 @@ $base0f: #b18a3d !default;
   }
 }
 
+.masthead {
+  background: $navbackground !important;
+  border-bottom: 0px !important;
+}
 .page__footer {
   color: rgb(195, 229, 238) !important; // override
   background-color: rgb(23, 99, 143)!important;
@@ -51,14 +58,22 @@ $base0f: #b18a3d !default;
   color: inherit;
 }
 
+.greedy-nav {
+  background: $navbackground !important;
+}
+
 .greedy-nav__toggle {
   background: rgb(23, 99, 143) !important;
 }
 
 .greedy-nav .visible-links {
   a {
+    color: $menufontcolor !important;
     &:before{
       background: rgb(23, 99, 143) !important;
+    }
+    &:hover {
+      color: rgb(228, 241, 245) !important;
     }
   }
 }
@@ -67,12 +82,12 @@ $base0f: #b18a3d !default;
   &--overlay {
     .page__title {
       color: rgb(255, 255, 255) !important;
-      text-shadow: 6px 6px 4px rgba(rgb(0, 0, 0), 1.5) !important;
+      text-shadow: 6px 6px 4px rgba(rgb(3, 66, 102), 1.5) !important;
     }
     .page__lead{
       color: rgb(255, 255, 255) !important;
       // font-size: larger !important;
-      text-shadow: 6px 6px 4px rgba(rgb(0, 0, 0), 1.5) !important;
+      text-shadow: 6px 6px 4px rgba(rgb(3, 66, 102), 1.5) !important;
     }
 
   }
