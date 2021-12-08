@@ -12,9 +12,11 @@ $link-color: #0000ff !default;
 $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: $text-color !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
-$navbackground: rgb(99, 159, 199) !default;
+$navbackground: rgb(255, 255, 255) !default;
 $menufontcolor: rgb(5, 42, 66) !default;
-
+$background: rgb(255, 255, 255) !default;
+$footerfontcolor: rgb(195, 229, 238) !default;
+$footerbackgroundcolor: rgb(23, 99, 143) !default;
 /* tmm syntax highlighting (base16) */
 
 $base00: #000000 !default;
@@ -34,6 +36,9 @@ $base0d: #96cbfe !default;
 $base0e: #ff73fd !default;
 $base0f: #b18a3d !default;
 
+html {
+  background-color: $background !important
+}
 .page__content {
   .notice,
   .notice--primary,
@@ -50,8 +55,17 @@ $base0f: #b18a3d !default;
   border-bottom: 0px !important;
 }
 .page__footer {
-  color: rgb(195, 229, 238) !important; // override
-  background-color: rgb(23, 99, 143)!important;
+  color: $footerfontcolor !important; // override
+  background-color: $footerbackgroundcolor !important;
+}
+#footer-focus-text{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  font-size: large !important;
+}
+
+#footer-focus-text-footer{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  font-size: small !important;
 }
 
 .page__footer-follow .social-icons .svg-inline--fa {
