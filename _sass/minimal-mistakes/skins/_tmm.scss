@@ -66,13 +66,13 @@ $base0f: #b18a3d !default;
 .page__hero {
   &--overlay {
     .page__title {
-      color: rgb(5, 55, 83) !important;
-      text-shadow: 6px 6px 4px rgba(rgb(64, 103, 126), 0.5) !important;
+      color: rgb(255, 255, 255) !important;
+      text-shadow: 6px 6px 4px rgba(rgb(0, 0, 0), 1.5) !important;
     }
     .page__lead{
       color: rgb(255, 255, 255) !important;
-      font-size: large !important;
-      text-shadow: 6px 6px 4px rgba(rgb(64, 103, 126), 0.5) !important;
+      // font-size: larger !important;
+      text-shadow: 6px 6px 4px rgba(rgb(0, 0, 0), 1.5) !important;
     }
 
   }
