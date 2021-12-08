@@ -51,10 +51,29 @@ $base0f: #b18a3d !default;
   color: inherit;
 }
 
+.greedy-nav__toggle {
+  background: rgb(23, 99, 143) !important;
+}
+
 .greedy-nav .visible-links {
   a {
     &:before{
       background: rgb(23, 99, 143) !important;
     }
+  }
+}
+
+.page__hero {
+  &--overlay {
+    .page__title {
+      color: rgb(5, 55, 83) !important;
+      // text-shadow: none !important;
+    }
+    .page__lead{
+      color: rgb(23, 99, 143) !important;
+      font-size: large;
+      text-shadow: none !important;
+    }
+
   }
 }

@@ -4,13 +4,13 @@ title: Issues
 permalink: /issues/
 classes: wide
 
-feature_row2:
+issue_row2:
   - image_path: "assets/issues/images/issue02.png"
     alt: "Issue 02"
     title: "Issue 02"
     excerpt: 'Welcome back. Thanks for trusting us.'
 
-feature_row1:
+issue_row1:
   - image_path: "assets/issues/images/issue01.png"
     alt: "Issue 01"
     title: "Issue 01"
@@ -31,6 +31,6 @@ feature_row1:
         }
 </style>
 
-{% include feature_row id="feature_row2" type="left" %}
-{% include feature_row id="feature_row1" type="left" %}
+{% include feature_row id="issue_row2" type="left" %}
+{% include feature_row id="issue_row1" type="left" %}
 

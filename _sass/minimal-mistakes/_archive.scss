@@ -68,7 +68,7 @@
   overflow: hidden;
 
   img {
-    width: 100%;
+    width: 50%;
   }
 }
 
@@ -267,7 +267,7 @@
 
     @include breakpoint($small) {
       .archive__item-teaser {
-        float: left;
+        float: center;
         width: span(5 of 12);
       }
 
@@ -370,3 +370,4 @@
     }
   }
 }
+
