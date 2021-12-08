@@ -33,14 +33,13 @@ feature_row:
     btn_label: "Explore category3"
     image_caption: "&copy; Author3"
 
+
+highlights:
+  - excerpt: '[The First Issue](./issues) is out now.'
+  
 intro:
   - excerpt: '<h3>Article Title</h3>
-  <br>
   <span>An article by <a href="">Author</a></span>'
-
-intro-one:
-  - excerpt: '[The First Issue]() is out now.<br><br> The Submission Window for the N+1 Issue of The Meadgate Magazine , has been closed. The issue will be out soon.'
-  
 
 ---
 
@@ -77,9 +76,9 @@ intro-one:
     }
 </style> -->
 
-<!-- {% include feature_row id="intro-one" type="center" %} -->
+{% include feature_row id="highlights" type="center" %}
 
 <!-- {% include feature_row id="intro" type="center" %} -->
 
 
-<!-- {% include feature_row %} -->
+{% include feature_row %}

@@ -68,6 +68,16 @@
   overflow: hidden;
 
   img {
+    width: 100%;
+  }
+}
+
+.archive__item-issues {
+  position: relative;
+  border-radius: $border-radius;
+  overflow: hidden;
+
+  img {
     width: 50%;
   }
 }
