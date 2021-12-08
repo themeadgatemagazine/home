@@ -2,16 +2,13 @@
 layout: splash
 breadcrumbs: false
 
-image_sliders:
-  - slider2
-
 header:
   overlay_color: "#afcada"
   overlay_image: /assets/img/home.jpg
   cta_label: '<i class="fas fa-book"></i> Read our latest issue'
   cta_url: /issues/
   caption: "&copy; tmm"
-excerpt: "A Monthly magazine for the friends around.<br>"
+excerpt: "A Monthly magazine for the friends around."
 
 feature_row:
   - image_path: "assets/issues/images/issue01.png"
@@ -29,15 +26,11 @@ intro:
 
 ---
 
-<!-- Slideshow
-================================================== -->
-{% include slider.html selector="slider2" %}
-
 <style>
     .page__hero--overlay {
-      padding: 12em 0 4em 0;
+      padding: 12em 0 1em 0;
     }
-
+  
     .archive__item-body p{
       padding-top: 1em;
     }
@@ -54,19 +47,10 @@ intro:
       width: auto; 
     }
     .feature__item--left .archive__item-teaser img {
-      width: 20%;
+      width: 100%;
     }
    
     a.btn.btn--light-outline.btn--large {
     background-color: rgb(23, 99, 143);
     }
 </style>
-
-{% include slider.html selector="slider2" %}
-
-<!-- {% include feature_row id="highlights" type="center" %} -->
-
-<!-- {% include feature_row id="intro" type="center" %} -->
-
-
-<!-- {% include feature_row %} -->
