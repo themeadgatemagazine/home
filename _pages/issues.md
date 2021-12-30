@@ -6,7 +6,7 @@ classes: wide
 
 
 issue_row1:
-  - image_path: "assets/issues/images/issue01.jpeg"
+  - image_path: "assets/issues/images/issue01.jpg"
     alt: "Issue 01"
     title: "Issue 01 - New Year Special"
     url: "assets/issues/images/issue01.pdf"
