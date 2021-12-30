@@ -8,8 +8,15 @@ classes: wide
 issue_row1:
   - image_path: "assets/issues/images/issue01.png"
     alt: "Issue 01"
-    title: "Issue 01"
-    excerpt: 'Coming soon...'
+    title: "Issue 01 - New Year Special"
+    url: "assets/issues/images/issue01.pdf"
+    btn_label: "Download the issue here"
+    excerpt: " - Filled with Fun and Entertainment <br> 
+    - <b>New Comic Strip</b> - <i> Atlanta's Race </i> <br> 
+    - <b>Local News </b> : Did you know about the new train station at <i> Beaulieu </i> ? <br>
+    - <b>International News </b> : We've <i> \"touched\" </i> the sun <br>
+    - <b>Jokes and Puzzles </b> <br>
+    - <b>Quiz </b> - chance to win <i>exciting</i> prizes. <br>"
 ---
 
 <style>
