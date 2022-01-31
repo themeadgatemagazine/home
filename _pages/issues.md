@@ -17,6 +17,20 @@ issue_row1:
     - <b>International News </b> : We've <i> \"touched\" </i> the sun <br>
     - <b>Jokes and Puzzles </b> <br>
     - <b>Quiz </b> : chance to win <i>exciting</i> prizes. <br>"
+
+issue_row2:
+  - image_path: "assets/issues/images/issue02.jpg"
+    alt: "Issue 02"
+    title: "Issue 02 - Science Special"
+    url: "assets/issues/images/issue02.pdf"
+    btn_label: "Download the issue here"
+    excerpt: " - Filled with Science and Fun<br> 
+    - <b>Comic Strip</b> : <i> Atlanta's Race E-02</i> <br> 
+    - <b>James Webb Space Telescope </b> : We will now find the mysteries of our Universe <br>
+    - Did you know about <b> Radioactive Decay </b>?<br>
+    - <b>Jokes and Puzzles </b> <br>
+    - <b>Quiz </b> : chance to win <i>exciting</i> prizes. <br>"
+
 ---
 
 <style>
