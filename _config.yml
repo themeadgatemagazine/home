@@ -19,7 +19,7 @@ title                    : "The Meadgate Magazine"
 title_separator          : "-"
 name                     : "The Meadgate Magazine"
 description              : "The Meadgate Magazine is a monthly magazine for the friends in and around Meadgate."
-url                      : "https://themeadgatemagazine.github.io"
+url                      : "https://themeadgatemagazine.co.uk"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "home/themeadgatemagazine.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -107,8 +107,8 @@ author:
   bio: The Meadgate Magazine is a monthly magazine for the friends in and around Meadgate.
   location: Chelmsford, Essex, UK
   email: themeadgatemagazine.gmail.com
-  uri: https://themeadgatemagazine.github.io/home
-  home: https://themeadgatemagazine.github.io/home
+  uri: https://themeadgatemagazine.co.uk
+  home: https://themeadgatemagazine.co.uk
   facebook: 
   instagram: themeadgatemagazine/
   linkedin: 
