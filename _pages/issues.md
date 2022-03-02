@@ -31,6 +31,19 @@ issue_row2:
     - <b>Jokes and Puzzles </b> <br>
     - <b>Quiz </b> : chance to win <i>exciting</i> prizes. <br>"
 
+issue_row3:
+  - image_path: "assets/issues/images/issue03.jpg"
+    alt: "Issue 03"
+    title: "Issue 03"
+    url: "assets/issues/images/issue03.pdf"
+    btn_label: "Download the issue here"
+    excerpt: " - Filled with Science and Fun<br> 
+    - <b>Comic Strip</b> : <i> Atlanta's Race E-03 - The final episode</i> <br> 
+    - <b>Minature Mercury</b> : All about the tiny planet. Collect all th cards. <br>
+    - Did you know about <b> The Periodic Table </b>?<br>
+    - <b>Jokes</b> <br>
+    - <b>Quiz </b> : chance to win <i>exciting</i> prizes. <br>"
+
 ---
 
 <style>
