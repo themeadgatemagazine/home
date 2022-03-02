@@ -39,7 +39,7 @@ issue_row3:
     btn_label: "Download the issue here"
     excerpt: " - Filled with Science and Fun<br> 
     - <b>Comic Strip</b> : <i> Atlanta's Race E-03 - The final episode</i> <br> 
-    - <b>Minature Mercury</b> : All about the tiny planet. Collect all th cards. <br>
+    - <b>Minature Mercury</b> : All about the tiny planet. Collect all the cards. <br>
     - Did you know about <b> The Periodic Table </b>?<br>
     - <b>Jokes</b> <br>
     - <b>Quiz </b> : chance to win <i>exciting</i> prizes. <br>"
