@@ -60,5 +60,6 @@ issue_row3:
         }
 </style>
 
+{% include feature_row id="issue_row3" type="left" %}
 {% include feature_row id="issue_row2" type="left" %}
 {% include feature_row id="issue_row1" type="left" %}
